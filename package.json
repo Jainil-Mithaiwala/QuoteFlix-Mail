@@ -1,0 +1,21 @@
+{
+  "name": "quoteflix-email-service",
+  "version": "1.0.0",
+  "description": "A Node.js application for sending emails and interacting with a MySQL database",
+  "main": "mail.js",
+  "scripts": {
+    "start": "node mail.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.17.3",
+    "mysql": "^2.18.1",
+    "nodemailer": "^6.7.2"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "author": "Jainil",
+  "license": "ISC"
+}
